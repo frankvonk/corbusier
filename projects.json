@@ -1,0 +1,7 @@
+{
+    "title": "title",
+    "singleSourceOfTruth": "github/projectname",
+    "deployments": "easyhost / leeloo21 deploy can be single or array,*",
+    "costs:": {},
+    "backups":" solstice-5 -6 -7 "
+}
