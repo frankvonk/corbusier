@@ -3,10 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>Corbusier Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>Welcome to your dashboard project!</p>
+    <header class="topbar">
+      <div class="brand">Corbusier</div>
+      <nav class="nav">
+        <a href="#">Overview</a>
+        <a href="#">Projects</a>
+        <a href="#">Reports</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Dashboard all projects</p>
+          <h1>Hello World</h1>
+          <p class="subtitle">Welcome to your project dashboard.</p>
+        </div>
+        <button class="primary-btn">View Report</button>
+      </section>
+
+      <section class="stats">
+        <article class="card">
+          <span class="label">Projects</span>
+          <strong>12</strong>
+        </article>
+        <article class="card">
+          <span class="label">Active</span>
+          <strong>8</strong>
+        </article>
+        <article class="card">
+          <span class="label">Completed</span>
+          <strong>4</strong>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
